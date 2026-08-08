@@ -1,0 +1,576 @@
+{
+  "sessions": [
+    {
+      "id": "fb-1786131029407",
+      "mode": "cognitive",
+      "originalTranscript": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "correctedText": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-showed",
+          "original": "showed",
+          "upgraded": "demonstrated",
+          "registerLevel": "Advanced",
+          "explanation": "\"Demonstrated\" articulates confidence and deliberate action."
+        }
+      ],
+      "fluencyScore": 95,
+      "cognitiveScorecard": {
+        "modeType": "logical",
+        "rubric": {
+          "logicalReasoning": 6.5,
+          "criticalThinking": 8.8,
+          "problemSolving": 6.8,
+          "communication": 9.1,
+          "vocabulary": 8.9,
+          "grammar": 9.5,
+          "confidence": 7.2,
+          "fluency": 9.2
+        },
+        "overallScore": 83,
+        "stepByStepSolution": "STEP 1: Calculate differences between consecutive terms: 7 - 3 = 4, 15 - 7 = 8, 31 - 15 = 16, 63 - 31 = 32.\nSTEP 2: Observe pattern in differences: 4, 8, 16, 32 (each difference doubles).\nSTEP 3: Next difference is 32 × 2 = 64.\nSTEP 4: Next term in series = 63 + 64 = 127.\nALTERNATIVE LOGIC: Each term is n_k = 2 × n_{k-1} + 1. Thus 2(63) + 1 = 127.",
+        "reasoningFlawDiagnostic": "Minor Logical Gap: You stated your conclusion directly without fully articulating the intermediate logical steps or assumptions.",
+        "strongerArguments": [
+          "Quantify baseline assumptions explicitly before stating final estimates",
+          "Acknowledge operational trade-offs to demonstrate well-rounded executive critical thinking"
+        ],
+        "vocabularySuggestions": [
+          "Use \"substantiate\" instead of \"prove\"",
+          "Use \"systemic bottleneck\" instead of \"big problem\"",
+          "Use \"trade-off analysis\" instead of \"pros and cons\""
+        ],
+        "nextRecommendedLevel": "Level 3: Advanced"
+      },
+      "promptTitle": "Adaptive Series & Pattern Deduction",
+      "timestamp": "2026-08-07T19:30:29.408Z"
+    },
+    {
+      "id": "fb-1786130977485",
+      "mode": "story",
+      "originalTranscript": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "correctedText": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-showed",
+          "original": "showed",
+          "upgraded": "demonstrated",
+          "registerLevel": "Advanced",
+          "explanation": "\"Demonstrated\" articulates confidence and deliberate action."
+        }
+      ],
+      "fluencyScore": 95,
+      "promptTitle": "The AI Pivot at Apex Tech",
+      "timestamp": "2026-08-07T19:29:37.485Z"
+    },
+    {
+      "id": "fb-1786130910769",
+      "mode": "interview",
+      "originalTranscript": "During a major sale, our payment gateway API started returning 500 errors. As the on-call engineer, I had to identify the issue and restore payments within 30 minutes. I analyzed the database queries and noticed locks on the transactions table. I immediately increased the connection pool size and optimized the locking query. This resolved the 500 errors, brought API latency back to normal, and prevented any further lost revenue.",
+      "correctedText": "During a major sale, our payment gateway API started returning 500 errors. As the on-call engineer, I had to identify the issue and restore payments within 30 minutes. I analyzed the database queries and noticed locks on the transactions table. I immediately increased the connection pool size and optimized the locking query. This resolved the 500 errors, brought API latency back to normal, and prevented any further lost revenue.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [],
+      "fluencyScore": 95,
+      "starAnalysis": {
+        "situationScore": 45,
+        "taskScore": 88,
+        "actionScore": 92,
+        "resultScore": 90,
+        "overallScore": 79,
+        "situationFeedback": "Add more details about the company context, time frame, and initial scale.",
+        "taskFeedback": "Well-defined ownership. Your specific challenge and core metrics were clear.",
+        "actionFeedback": "Excellent action details! You used active \"I\" statements effectively.",
+        "resultFeedback": "Great job quantifying the business outcome!",
+        "keyStrengths": [
+          "Vocal clarity and structured response delivery",
+          "Good use of active professional language"
+        ],
+        "improvementTips": [
+          "Quantify final results with concrete metrics or percentage improvements",
+          "Clearly separate the Action phase from the initial Situation"
+        ],
+        "modelAnswer": "SITUATION: During a Black Friday traffic surge, our primary database CPU hit 99% utilization, slowing response times for 50,000 active users.\nTASK: As lead engineer on duty, I needed to restore database health immediately without causing data corruption or extended downtime.\nACTION: I opened a synchronized war room, isolated an unindexed SQL query in the order processing pipeline, deployed a zero-downtime hotfix index, and enabled query caching.\nRESULT: Query execution latency dropped from 4.2 seconds to 15 milliseconds, CPU utilization stabilized at 35%, and we maintained 100% system availability with zero lost transactions."
+      },
+      "promptTitle": "Describe a time when you had to debug a severe production issue under tight time constraints.",
+      "timestamp": "2026-08-07T19:28:30.769Z"
+    },
+    {
+      "id": "fb-1786130835011",
+      "mode": "interview",
+      "originalTranscript": "Maya Lin led a big company transition towards AI. She launched peer mentoring and got good results within one year, increasing revenue substantially.",
+      "correctedText": "Maya Lin led a big company transition towards AI. She launched peer mentoring and got good results within one year, increasing revenue substantially.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-good",
+          "original": "good",
+          "upgraded": "exemplary",
+          "registerLevel": "Executive",
+          "explanation": "\"Exemplary\" demonstrates a higher level of professional praise."
+        },
+        {
+          "id": "v-big",
+          "original": "big",
+          "upgraded": "substantial",
+          "registerLevel": "Executive",
+          "explanation": "\"Substantial\" conveys measurable scale in professional discussions."
+        }
+      ],
+      "fluencyScore": 95,
+      "starAnalysis": {
+        "situationScore": 85,
+        "taskScore": 50,
+        "actionScore": 55,
+        "resultScore": 90,
+        "overallScore": 70,
+        "situationFeedback": "Strong background context set! You clearly established the organizational scene.",
+        "taskFeedback": "Explicitly state what your personal responsibility was versus the wider team.",
+        "actionFeedback": "Focus more on the step-by-step actions YOU initiated to solve the bottleneck.",
+        "resultFeedback": "Great job quantifying the business outcome!",
+        "keyStrengths": [
+          "Vocal clarity and structured response delivery",
+          "Good use of active professional language"
+        ],
+        "improvementTips": [
+          "Quantify final results with concrete metrics or percentage improvements",
+          "Clearly separate the Action phase from the initial Situation"
+        ],
+        "modelAnswer": "SITUATION: During a Black Friday traffic surge, our primary database CPU hit 99% utilization, slowing response times for 50,000 active users.\nTASK: As lead engineer on duty, I needed to restore database health immediately without causing data corruption or extended downtime.\nACTION: I opened a synchronized war room, isolated an unindexed SQL query in the order processing pipeline, deployed a zero-downtime hotfix index, and enabled query caching.\nRESULT: Query execution latency dropped from 4.2 seconds to 15 milliseconds, CPU utilization stabilized at 35%, and we maintained 100% system availability with zero lost transactions."
+      },
+      "promptTitle": "Describe a time when you had to debug a severe production issue under tight time constraints.",
+      "timestamp": "2026-08-07T19:27:15.011Z"
+    },
+    {
+      "id": "fb-1786130794591",
+      "mode": "story",
+      "originalTranscript": "Maya Lin pivoted Apex Technologies to AI. She retrained 400 engineers and handled resistance using a peer-mentoring program. To handle resistance, I would communicate the vision clearly and support team members through training.",
+      "correctedText": "Maya Lin pivoted Apex Technologies to AI. She retrained 400 engineers and handled resistance using a peer-mentoring program. To handle resistance, I would communicate the vision clearly and support team members through training.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [],
+      "fluencyScore": 95,
+      "promptTitle": "The AI Pivot at Apex Tech",
+      "timestamp": "2026-08-07T19:26:34.591Z"
+    },
+    {
+      "id": "fb-1786130764360",
+      "mode": "story",
+      "originalTranscript": "Maya Lin pivoted Apex Technologies to AI. She retrained 400 engineers and handled resistance using a peer-mentoring program. To handle resistance, I would communicate the vision clearly and support team members through training.",
+      "correctedText": "Maya Lin pivoted Apex Technologies to AI. She retrained 400 engineers and handled resistance using a peer-mentoring program. To handle resistance, I would communicate the vision clearly and support team members through training.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [],
+      "fluencyScore": 95,
+      "promptTitle": "The AI Pivot at Apex Tech",
+      "timestamp": "2026-08-07T19:26:04.360Z"
+    },
+    {
+      "id": "fb-1786130691037",
+      "mode": "cognitive",
+      "originalTranscript": "CPU load and API latency are directly proportional. When CPU load exceeds 80%, API latency spikes exponentially. The system has poor scalability. I recommend implementing a load balancer and caching frequently requested data to reduce database hits.",
+      "correctedText": "CPU load and API latency are directly proportional. When CPU load exceeds 80%, API latency spikes exponentially. The system has poor scalability. I recommend implementing a load balancer and caching frequently requested data to reduce database hits.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [],
+      "fluencyScore": 95,
+      "cognitiveScorecard": {
+        "modeType": "aptitude_verbal",
+        "rubric": {
+          "logicalReasoning": 6.5,
+          "criticalThinking": 6.2,
+          "problemSolving": 6.8,
+          "communication": 9.1,
+          "vocabulary": 7.5,
+          "grammar": 9.5,
+          "confidence": 9,
+          "fluency": 9.2
+        },
+        "overallScore": 80,
+        "stepByStepSolution": "1. TREND: Latency remains linear up to 50k users (110ms), but experiences exponential degradation beyond 75k users (1450ms) as CPU load hits 89%-99%.\n2. CONCLUSION: The architecture hits a severe concurrency bottleneck when CPU load exceeds 85%, indicating unoptimized synchronous DB queries or single-threaded event loops.\n3. RECOMMENDATION: Implement horizonal auto-scaling, Redis query caching, and async job queues for heavy background tasks.",
+        "reasoningFlawDiagnostic": "Minor Logical Gap: You stated your conclusion directly without fully articulating the intermediate logical steps or assumptions.",
+        "strongerArguments": [
+          "Quantify baseline assumptions explicitly before stating final estimates",
+          "Acknowledge operational trade-offs to demonstrate well-rounded executive critical thinking"
+        ],
+        "vocabularySuggestions": [
+          "Use \"substantiate\" instead of \"prove\"",
+          "Use \"systemic bottleneck\" instead of \"big problem\"",
+          "Use \"trade-off analysis\" instead of \"pros and cons\""
+        ],
+        "nextRecommendedLevel": "Level 3: Advanced"
+      },
+      "promptTitle": "Server Performance & Latency Analytics",
+      "timestamp": "2026-08-07T19:24:51.037Z"
+    },
+    {
+      "id": "fb-1786130600400",
+      "mode": "cognitive",
+      "originalTranscript": "Maya Lin led a big company transition towards AI. She launched peer mentoring and got good results within one year, increasing revenue substantially.",
+      "correctedText": "Maya Lin led a big company transition towards AI. She launched peer mentoring and got good results within one year, increasing revenue substantially.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-good",
+          "original": "good",
+          "upgraded": "exemplary",
+          "registerLevel": "Executive",
+          "explanation": "\"Exemplary\" demonstrates a higher level of professional praise."
+        },
+        {
+          "id": "v-big",
+          "original": "big",
+          "upgraded": "substantial",
+          "registerLevel": "Executive",
+          "explanation": "\"Substantial\" conveys measurable scale in professional discussions."
+        }
+      ],
+      "fluencyScore": 95,
+      "cognitiveScorecard": {
+        "modeType": "aptitude_verbal",
+        "rubric": {
+          "logicalReasoning": 6.5,
+          "criticalThinking": 6.2,
+          "problemSolving": 6.8,
+          "communication": 7,
+          "vocabulary": 8.9,
+          "grammar": 9.5,
+          "confidence": 7.2,
+          "fluency": 9.2
+        },
+        "overallScore": 77,
+        "stepByStepSolution": "1. TREND: Latency remains linear up to 50k users (110ms), but experiences exponential degradation beyond 75k users (1450ms) as CPU load hits 89%-99%.\n2. CONCLUSION: The architecture hits a severe concurrency bottleneck when CPU load exceeds 85%, indicating unoptimized synchronous DB queries or single-threaded event loops.\n3. RECOMMENDATION: Implement horizonal auto-scaling, Redis query caching, and async job queues for heavy background tasks.",
+        "reasoningFlawDiagnostic": "Minor Logical Gap: You stated your conclusion directly without fully articulating the intermediate logical steps or assumptions.",
+        "strongerArguments": [
+          "Quantify baseline assumptions explicitly before stating final estimates",
+          "Acknowledge operational trade-offs to demonstrate well-rounded executive critical thinking"
+        ],
+        "vocabularySuggestions": [
+          "Use \"substantiate\" instead of \"prove\"",
+          "Use \"systemic bottleneck\" instead of \"big problem\"",
+          "Use \"trade-off analysis\" instead of \"pros and cons\""
+        ],
+        "nextRecommendedLevel": "Level 3: Advanced"
+      },
+      "promptTitle": "Server Performance & Latency Analytics",
+      "timestamp": "2026-08-07T19:23:20.400Z"
+    },
+    {
+      "id": "fb-1786130533317",
+      "mode": "cognitive",
+      "originalTranscript": "In my previous project at the company, I was responsible for fixing the server outage. I go to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much.  test",
+      "correctedText": "In my previous project at the company, I was responsible for fixing the server outage. I went to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much.  test",
+      "grammarErrors": [
+        {
+          "id": "g-verb-1",
+          "type": "Verb Tense",
+          "original": "go",
+          "replacement": "went",
+          "explanation": "Use past tense \"went\" when describing completed past events."
+        }
+      ],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-helped",
+          "original": "helped",
+          "upgraded": "empowered",
+          "registerLevel": "Executive",
+          "explanation": "\"Empowered\" highlights proactive leadership."
+        }
+      ],
+      "fluencyScore": 89,
+      "cognitiveScorecard": {
+        "modeType": "aptitude_verbal",
+        "rubric": {
+          "logicalReasoning": 6.5,
+          "criticalThinking": 6.2,
+          "problemSolving": 6.8,
+          "communication": 9.1,
+          "vocabulary": 8.9,
+          "grammar": 7.8,
+          "confidence": 9,
+          "fluency": 9.2
+        },
+        "overallScore": 79,
+        "stepByStepSolution": "1. TREND: Latency remains linear up to 50k users (110ms), but experiences exponential degradation beyond 75k users (1450ms) as CPU load hits 89%-99%.\n2. CONCLUSION: The architecture hits a severe concurrency bottleneck when CPU load exceeds 85%, indicating unoptimized synchronous DB queries or single-threaded event loops.\n3. RECOMMENDATION: Implement horizonal auto-scaling, Redis query caching, and async job queues for heavy background tasks.",
+        "reasoningFlawDiagnostic": "Minor Logical Gap: You stated your conclusion directly without fully articulating the intermediate logical steps or assumptions.",
+        "strongerArguments": [
+          "Quantify baseline assumptions explicitly before stating final estimates",
+          "Acknowledge operational trade-offs to demonstrate well-rounded executive critical thinking"
+        ],
+        "vocabularySuggestions": [
+          "Use \"substantiate\" instead of \"prove\"",
+          "Use \"systemic bottleneck\" instead of \"big problem\"",
+          "Use \"trade-off analysis\" instead of \"pros and cons\""
+        ],
+        "nextRecommendedLevel": "Level 3: Advanced"
+      },
+      "promptTitle": "Server Performance & Latency Analytics",
+      "timestamp": "2026-08-07T19:22:13.317Z"
+    },
+    {
+      "id": "fb-1786130500649",
+      "mode": "cognitive",
+      "originalTranscript": "In my previous project at the company, I was responsible for fixing the server outage. I go to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much. ",
+      "correctedText": "In my previous project at the company, I was responsible for fixing the server outage. I went to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much. ",
+      "grammarErrors": [
+        {
+          "id": "g-verb-1",
+          "type": "Verb Tense",
+          "original": "go",
+          "replacement": "went",
+          "explanation": "Use past tense \"went\" when describing completed past events."
+        }
+      ],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-helped",
+          "original": "helped",
+          "upgraded": "empowered",
+          "registerLevel": "Executive",
+          "explanation": "\"Empowered\" highlights proactive leadership."
+        }
+      ],
+      "fluencyScore": 89,
+      "cognitiveScorecard": {
+        "modeType": "aptitude_verbal",
+        "rubric": {
+          "logicalReasoning": 6.5,
+          "criticalThinking": 6.2,
+          "problemSolving": 6.8,
+          "communication": 9.1,
+          "vocabulary": 8.9,
+          "grammar": 7.8,
+          "confidence": 9,
+          "fluency": 9.2
+        },
+        "overallScore": 79,
+        "stepByStepSolution": "1. TREND: Latency remains linear up to 50k users (110ms), but experiences exponential degradation beyond 75k users (1450ms) as CPU load hits 89%-99%.\n2. CONCLUSION: The architecture hits a severe concurrency bottleneck when CPU load exceeds 85%, indicating unoptimized synchronous DB queries or single-threaded event loops.\n3. RECOMMENDATION: Implement horizonal auto-scaling, Redis query caching, and async job queues for heavy background tasks.",
+        "reasoningFlawDiagnostic": "Minor Logical Gap: You stated your conclusion directly without fully articulating the intermediate logical steps or assumptions.",
+        "strongerArguments": [
+          "Quantify baseline assumptions explicitly before stating final estimates",
+          "Acknowledge operational trade-offs to demonstrate well-rounded executive critical thinking"
+        ],
+        "vocabularySuggestions": [
+          "Use \"substantiate\" instead of \"prove\"",
+          "Use \"systemic bottleneck\" instead of \"big problem\"",
+          "Use \"trade-off analysis\" instead of \"pros and cons\""
+        ],
+        "nextRecommendedLevel": "Level 3: Advanced"
+      },
+      "promptTitle": "Server Performance & Latency Analytics",
+      "timestamp": "2026-08-07T19:21:40.649Z"
+    },
+    {
+      "id": "fb-1786130408659",
+      "mode": "cognitive",
+      "originalTranscript": "In my previous project at the company, I was responsible for fixing the server outage. I go to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much.",
+      "correctedText": "In my previous project at the company, I was responsible for fixing the server outage. I went to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much.",
+      "grammarErrors": [
+        {
+          "id": "g-verb-1",
+          "type": "Verb Tense",
+          "original": "go",
+          "replacement": "went",
+          "explanation": "Use past tense \"went\" when describing completed past events."
+        }
+      ],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-helped",
+          "original": "helped",
+          "upgraded": "empowered",
+          "registerLevel": "Executive",
+          "explanation": "\"Empowered\" highlights proactive leadership."
+        }
+      ],
+      "fluencyScore": 89,
+      "cognitiveScorecard": {
+        "modeType": "aptitude_verbal",
+        "rubric": {
+          "logicalReasoning": 6.5,
+          "criticalThinking": 6.2,
+          "problemSolving": 6.8,
+          "communication": 9.1,
+          "vocabulary": 8.9,
+          "grammar": 7.8,
+          "confidence": 9,
+          "fluency": 9.2
+        },
+        "overallScore": 79,
+        "stepByStepSolution": "1. TREND: Latency remains linear up to 50k users (110ms), but experiences exponential degradation beyond 75k users (1450ms) as CPU load hits 89%-99%.\n2. CONCLUSION: The architecture hits a severe concurrency bottleneck when CPU load exceeds 85%, indicating unoptimized synchronous DB queries or single-threaded event loops.\n3. RECOMMENDATION: Implement horizonal auto-scaling, Redis query caching, and async job queues for heavy background tasks.",
+        "reasoningFlawDiagnostic": "Minor Logical Gap: You stated your conclusion directly without fully articulating the intermediate logical steps or assumptions.",
+        "strongerArguments": [
+          "Quantify baseline assumptions explicitly before stating final estimates",
+          "Acknowledge operational trade-offs to demonstrate well-rounded executive critical thinking"
+        ],
+        "vocabularySuggestions": [
+          "Use \"substantiate\" instead of \"prove\"",
+          "Use \"systemic bottleneck\" instead of \"big problem\"",
+          "Use \"trade-off analysis\" instead of \"pros and cons\""
+        ],
+        "nextRecommendedLevel": "Level 3: Advanced"
+      },
+      "promptTitle": "Server Performance & Latency Analytics",
+      "timestamp": "2026-08-07T19:20:08.659Z"
+    },
+    {
+      "id": "fb-1786130375508",
+      "mode": "cognitive",
+      "originalTranscript": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "correctedText": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-showed",
+          "original": "showed",
+          "upgraded": "demonstrated",
+          "registerLevel": "Advanced",
+          "explanation": "\"Demonstrated\" articulates confidence and deliberate action."
+        }
+      ],
+      "fluencyScore": 95,
+      "cognitiveScorecard": {
+        "modeType": "aptitude_verbal",
+        "rubric": {
+          "logicalReasoning": 6.5,
+          "criticalThinking": 8.8,
+          "problemSolving": 6.8,
+          "communication": 9.1,
+          "vocabulary": 8.9,
+          "grammar": 9.5,
+          "confidence": 7.2,
+          "fluency": 9.2
+        },
+        "overallScore": 83,
+        "stepByStepSolution": "1. TREND: Latency remains linear up to 50k users (110ms), but experiences exponential degradation beyond 75k users (1450ms) as CPU load hits 89%-99%.\n2. CONCLUSION: The architecture hits a severe concurrency bottleneck when CPU load exceeds 85%, indicating unoptimized synchronous DB queries or single-threaded event loops.\n3. RECOMMENDATION: Implement horizonal auto-scaling, Redis query caching, and async job queues for heavy background tasks.",
+        "reasoningFlawDiagnostic": "Minor Logical Gap: You stated your conclusion directly without fully articulating the intermediate logical steps or assumptions.",
+        "strongerArguments": [
+          "Quantify baseline assumptions explicitly before stating final estimates",
+          "Acknowledge operational trade-offs to demonstrate well-rounded executive critical thinking"
+        ],
+        "vocabularySuggestions": [
+          "Use \"substantiate\" instead of \"prove\"",
+          "Use \"systemic bottleneck\" instead of \"big problem\"",
+          "Use \"trade-off analysis\" instead of \"pros and cons\""
+        ],
+        "nextRecommendedLevel": "Level 3: Advanced"
+      },
+      "promptTitle": "Server Performance & Latency Analytics",
+      "timestamp": "2026-08-07T19:19:35.508Z"
+    },
+    {
+      "id": "fb-1786128725554",
+      "mode": "story",
+      "originalTranscript": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.In my previous project at the company, I was responsible for fixing the server outage. I go to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much.",
+      "correctedText": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.In my previous project at the company, I was responsible for fixing the server outage. I went to the primary database, identified the bottleneck query, and executed a zero-downtime failover which helped the team very much.",
+      "grammarErrors": [
+        {
+          "id": "g-verb-1",
+          "type": "Verb Tense",
+          "original": "go",
+          "replacement": "went",
+          "explanation": "Use past tense \"went\" when describing completed past events."
+        }
+      ],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-showed",
+          "original": "showed",
+          "upgraded": "demonstrated",
+          "registerLevel": "Advanced",
+          "explanation": "\"Demonstrated\" articulates confidence and deliberate action."
+        },
+        {
+          "id": "v-helped",
+          "original": "helped",
+          "upgraded": "empowered",
+          "registerLevel": "Executive",
+          "explanation": "\"Empowered\" highlights proactive leadership."
+        }
+      ],
+      "fluencyScore": 90,
+      "promptTitle": "The AI Pivot at Apex Tech",
+      "timestamp": "2026-08-07T18:52:05.554Z"
+    },
+    {
+      "id": "fb-1785957750111",
+      "mode": "interview",
+      "originalTranscript": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "correctedText": "When engineers and product managers disagreed on feature priorities, I organized a tradeoff workshop. I showed data metrics, created alignment, and delivered the roadmap on time.",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [
+        {
+          "id": "v-showed",
+          "original": "showed",
+          "upgraded": "demonstrated",
+          "registerLevel": "Advanced",
+          "explanation": "\"Demonstrated\" articulates confidence and deliberate action."
+        }
+      ],
+      "fluencyScore": 95,
+      "starAnalysis": {
+        "situationScore": 85,
+        "taskScore": 50,
+        "actionScore": 55,
+        "resultScore": 40,
+        "overallScore": 58,
+        "situationFeedback": "Strong background context set! You clearly established the organizational scene.",
+        "taskFeedback": "Explicitly state what your personal responsibility was versus the wider team.",
+        "actionFeedback": "Focus more on the step-by-step actions YOU initiated to solve the bottleneck.",
+        "resultFeedback": "Include measurable numbers (e.g., % time saved, revenue gain, or team satisfaction score).",
+        "keyStrengths": [
+          "Vocal clarity and structured response delivery",
+          "Good use of active professional language"
+        ],
+        "improvementTips": [
+          "Quantify final results with concrete metrics or percentage improvements",
+          "Clearly separate the Action phase from the initial Situation"
+        ],
+        "modelAnswer": "SITUATION: During a Black Friday traffic surge, our primary database CPU hit 99% utilization, slowing response times for 50,000 active users.\nTASK: As lead engineer on duty, I needed to restore database health immediately without causing data corruption or extended downtime.\nACTION: I opened a synchronized war room, isolated an unindexed SQL query in the order processing pipeline, deployed a zero-downtime hotfix index, and enabled query caching.\nRESULT: Query execution latency dropped from 4.2 seconds to 15 milliseconds, CPU utilization stabilized at 35%, and we maintained 100% system availability with zero lost transactions."
+      },
+      "promptTitle": "Describe a time when you had to debug a severe production issue under tight time constraints.",
+      "timestamp": "2026-08-05T19:22:30.111Z"
+    },
+    {
+      "id": "fb-1785957547335",
+      "mode": "interview",
+      "originalTranscript": "when the business leader expect immediate results from the complex ml model we have to run model in such a way that it will be easier to solve the problem",
+      "correctedText": "When the business leader expect immediate results from the complex ml model we have to run model in such a way that it will be easier to solve the problem",
+      "grammarErrors": [],
+      "vocabularyUpgrades": [],
+      "fluencyScore": 95,
+      "starAnalysis": {
+        "situationScore": 85,
+        "taskScore": 50,
+        "actionScore": 55,
+        "resultScore": 90,
+        "overallScore": 70,
+        "situationFeedback": "Strong background context set! You clearly established the organizational scene.",
+        "taskFeedback": "Explicitly state what your personal responsibility was versus the wider team.",
+        "actionFeedback": "Focus more on the step-by-step actions YOU initiated to solve the bottleneck.",
+        "resultFeedback": "Great job quantifying the business outcome!",
+        "keyStrengths": [
+          "Vocal clarity and structured response delivery",
+          "Good use of active professional language"
+        ],
+        "improvementTips": [
+          "Quantify final results with concrete metrics or percentage improvements",
+          "Clearly separate the Action phase from the initial Situation"
+        ]
+      },
+      "promptTitle": "How do you handle a scenario where business leaders expect immediate results from a complex ML model?",
+      "timestamp": "2026-08-05T19:19:07.335Z"
+    }
+  ],
+  "userStats": {
+    "currentStreak": 1,
+    "bestStreak": 7,
+    "totalMinutesSpoken": 15,
+    "totalSessionsCompleted": 15,
+    "avgGrammarScore": 93,
+    "avgStarScore": 69,
+    "lastPracticedDate": "2026-08-07",
+    "savedWordIds": [
+      "v1",
+      "v3"
+    ]
+  }
+}
