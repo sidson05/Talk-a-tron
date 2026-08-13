@@ -171,6 +171,13 @@ export function App() {
 
   return (
     <div className="min-h-screen text-slate-900 font-sans selection:bg-slate-900 selection:text-white pb-12 flex flex-col justify-between relative overflow-hidden bg-neurova-tint">
+      {/* Background Aurora Floating Mesh Orbs for Refractions */}
+      <div className="aurora-bg-wrapper">
+        <div className="aurora-orb aurora-orb-1" />
+        <div className="aurora-orb aurora-orb-2" />
+        <div className="aurora-orb aurora-orb-3" />
+      </div>
+
       <div>
         {/* Navigation Floating Glass Pill Bar */}
         <Navbar

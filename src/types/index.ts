@@ -125,6 +125,7 @@ export interface VoiceSettings {
   autoPlayTTS: boolean;
   apiKey: string;
   apiProvider: 'mock' | 'openai' | 'gemini';
+  themeStyle?: 'emerald' | 'aurora' | 'cyber' | 'sunset';
 }
 
 export interface StoryPrompt {
