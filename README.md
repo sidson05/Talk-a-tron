@@ -51,7 +51,7 @@
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS, Lucide Icons, Canvas Confetti.
+- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS, Lucide Icons, Canvas Confetti.
 - **Voice & Speech**: WebSpeech API, Web Audio API, Web MediaRecorder, OpenAI Whisper API.
 - **AI Engine**: Google Gemini API (`gemini-2.5-flash`).
 - **Backend API**: Node.js, Express, CORS, Persistent file storage.
@@ -89,14 +89,14 @@ npm run build
 
 ---
 
-## 🌐 Deploying to Vercel
+## 🌐 Deployment
 
-### Option 1: 1-Click Web Deployment (Recommended)
+### Deploy to Vercel (Recommended)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsidson05%2FTalk-a-tron)
 
-1. Click the button above or visit [vercel.com/new](https://vercel.com/new).
-2. Connect your GitHub account and import the repository **`sidson05/Talk-a-tron`**.
-3. Keep default settings (Framework Preset: **Vite**, Root Directory: `./`).
+1. Click the button above or visit [Vercel](https://vercel.com/new).
+2. Connect your GitHub account and import the repository **[`sidson05/Talk-a-tron`](https://github.com/sidson05/Talk-a-tron)**.
+3. Keep the default settings (Framework Preset: **Vite**, Root Directory: `./`).
 4. Click **Deploy**. Your app will be live with a free SSL `.vercel.app` URL within ~30 seconds!
 
 ### Option 2: Deploy via Vercel CLI
