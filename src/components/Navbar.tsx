@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Target, MessageSquare, BookMarked, BarChart3, Flame, Settings, History, Brain, Sparkles } from 'lucide-react';
+import robotAssistantSvg from '../assets/robot_assistant.svg';
 import type { PracticeMode } from '../types';
 
 interface NavbarProps {
@@ -38,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           className="flex items-center space-x-3 cursor-pointer group select-none"
         >
           <div className="relative w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center p-1 border border-slate-700 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-md">
-            <img src="/robot_assistant.svg" alt="Talk-a-Tron Robot Assistant" className="w-7 h-7 object-contain" />
+            <img src={robotAssistantSvg} alt="Talk-a-Tron Robot Assistant" className="w-7 h-7 object-contain" />
             <span className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-500 rounded-full ring-2 ring-white animate-ping" />
           </div>
           <span className="text-lg font-extrabold tracking-tight text-slate-900 font-sans flex items-center gap-1.5">

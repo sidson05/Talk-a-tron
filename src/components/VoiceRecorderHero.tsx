@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Mic, MicOff, RotateCcw, Sparkles, AlertCircle, MessageSquareText, Radio, Globe, Edit3, Cpu, Play, Pause, Volume2 } from 'lucide-react';
 import { AudioVisualizer } from './AudioVisualizer';
+import robotAssistantSvg from '../assets/robot_assistant.svg';
 import { speechEngine } from '../services/speech';
 
 interface VoiceRecorderHeroProps {
@@ -158,7 +159,7 @@ export const VoiceRecorderHero: React.FC<VoiceRecorderHeroProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 pb-4">
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center p-1 border border-slate-700 shadow-sm shrink-0">
-            <img src="/robot_assistant.svg" alt="Talk-a-Tron Robot Assistant" className="w-7 h-7 object-contain" />
+            <img src={robotAssistantSvg} alt="Talk-a-Tron Robot Assistant" className="w-7 h-7 object-contain" />
           </div>
           <div>
             <div className="flex items-center space-x-2">

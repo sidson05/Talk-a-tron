@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Headset Headband -->
+  <path d="M 120 220 C 120 100, 392 100, 392 220" fill="none" stroke="#1e3a8a" stroke-width="44" stroke-linecap="round" />
+  <path d="M 216 110 L 296 110" fill="none" stroke="#2563eb" stroke-width="24" stroke-linecap="round" />
+
+  <!-- Robot Shoulders / Torso -->
+  <ellipse cx="256" cy="460" rx="140" ry="80" fill="#e2e8f0" />
+  <rect x="156" y="360" width="200" height="120" rx="30" fill="#f1f5f9" />
+  <rect x="226" y="320" width="60" height="60" fill="#cbd5e1" />
+
+  <!-- Shoulder Joints -->
+  <circle cx="130" cy="420" r="45" fill="#cbd5e1" />
+  <circle cx="382" cy="420" r="45" fill="#cbd5e1" />
+
+  <!-- Robot Head Base -->
+  <rect x="116" y="170" width="280" height="200" rx="90" fill="#f8fafc" stroke="#e2e8f0" stroke-width="8" />
+
+  <!-- Visor Screen -->
+  <rect x="156" y="210" width="200" height="100" rx="45" fill="#0f172a" />
+
+  <!-- Glowing Cyan Eyes -->
+  <circle cx="210" cy="260" r="20" fill="#22d3ee" />
+  <circle cx="302" cy="260" r="20" fill="#22d3ee" />
+  <circle cx="214" cy="256" r="6" fill="#ffffff" />
+  <circle cx="306" cy="256" r="6" fill="#ffffff" />
+
+  <!-- Headset Earpads -->
+  <rect x="76" y="190" width="54" height="110" rx="24" fill="#2563eb" />
+  <rect x="382" y="190" width="54" height="110" rx="24" fill="#2563eb" />
+
+  <!-- Headset Microphone Arm -->
+  <path d="M 390 280 L 370 360 L 310 360" fill="none" stroke="#e2e8f0" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="290" y="344" width="36" height="32" rx="12" fill="#0f172a" />
+</svg>

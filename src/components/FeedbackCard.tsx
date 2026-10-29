@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Sparkles, CheckCircle2, AlertTriangle, ArrowRight, Volume2, ShieldCheck, Target, Info, Mic, Star, Brain } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import robotAssistantSvg from '../assets/robot_assistant.svg';
 import type { SpeechFeedback, VoiceSettings } from '../types';
 import { speechEngine } from '../services/speech';
 
@@ -115,7 +116,7 @@ export const FeedbackCard: React.FC<FeedbackCardProps> = ({ feedback, settings }
 
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center p-1 border border-slate-700 shadow-sm shrink-0">
-              <img src="/robot_assistant.svg" alt="Talk-a-Tron Robot Assistant" className="w-7 h-7 object-contain" />
+              <img src={robotAssistantSvg} alt="Talk-a-Tron Robot Assistant" className="w-7 h-7 object-contain" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
