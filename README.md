@@ -89,6 +89,25 @@ npm run build
 
 ---
 
+## 🌐 Deploying to Vercel
+
+### Option 1: 1-Click Web Deployment (Recommended)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsidson05%2FTalk-a-tron)
+
+1. Click the button above or visit [vercel.com/new](https://vercel.com/new).
+2. Connect your GitHub account and import the repository **`sidson05/Talk-a-tron`**.
+3. Keep default settings (Framework Preset: **Vite**, Root Directory: `./`).
+4. Click **Deploy**. Your app will be live with a free SSL `.vercel.app` URL within ~30 seconds!
+
+### Option 2: Deploy via Vercel CLI
+
+```bash
+npx vercel
+```
+Follow the terminal prompts to link and deploy your project instantly.
+
+---
+
 ## 📄 License
 
 MIT License © 2026 Talk-a-Tron Team
